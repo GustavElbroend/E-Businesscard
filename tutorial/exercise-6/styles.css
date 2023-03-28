@@ -1,0 +1,17 @@
+/* YOUR STYLE GOES IN HERE */
+.board {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    display: flex;
+}
+.square {
+    background-color: #eeeed2;
+
+
+}
+
+.row:nth-child(odd) .square:nth-child(2n), .row:nth-child(even) .square:nth-child(2n+1){
+        background-color: #769656;
+}

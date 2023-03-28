@@ -1,0 +1,67 @@
+html {
+    background-color: rgb(74, 85, 58);
+}
+
+.container>h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.business-card {
+    color: black;
+    background-color: white;
+    border: 5px solid #5b9a87;
+    padding: 3px 13px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.business-card #rmit-logo {
+    width: 250px;
+    margin: 15px;
+}
+
+.business-card #Gustav-photo {
+    width: 250px;
+    border: 2px solid #E61E2A;
+    border-radius: 50%;
+}
+
+.business-card h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.business-card p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.business-card .contact-box {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.business-card .contact-box a {
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+}
+
+.business-card.contact-box .icon {
+    font-size: 25px;
+}
+
+.business-card p:last-child {
+    font-size: 18px;
+    font-weight: lighter;
+}
